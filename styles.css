@@ -1,0 +1,111 @@
+
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  src: url('https://fonts.googleapis.com/css?family=Open+Sans');
+}
+
+#chirpus{
+  float: left;
+}
+
+ul{
+  list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a{
+  display: inline;
+  padding: 10px 20px;
+  color: #69696a;
+  text-decoration: none;
+}
+
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f9fafc;
+}
+
+.aboutchirpus{
+
+}
+
+#pinkcircle{
+  border-radius: 50%;
+	width: 350px;
+	height: 350px;
+  background-color: rgba(247, 136, 167, 0.6);
+  position: absolute;
+  margin-left: 900px;
+  margin-top: -50px;
+  float: left;
+
+}
+
+#purplecircle{
+  border-radius: 50%;
+	width: 150px;
+	height: 150px;
+  background-color: rgba(207, 130, 213, 0.6);
+  position: relative;
+  margin-left: 675px;
+  margin-top: -15px;
+  float: left;
+}
+
+#peachcircle{
+  border-radius: 50%;
+	width: 250px;
+	height: 250px;
+  background-color: rgba(247, 193, 162, 0.7);
+  position: relative;
+  margin-left: 1110px;
+  margin-top: -50px;
+  z-index: 5;
+  float: left;
+}
+
+
+#hireus{
+  color: white;
+  background-color: black;
+  border-radius: 12px;
+  padding: 5px 15px 5px 15px
+}
+
+p{
+color: #69696a;
+float: left;
+width: 500px;
+border-left: 3px solid #69696a;
+padding-left: 10px;
+}
+
+h1{
+  font-weight: normal 800px;
+  margin-left: 25px;
+  padding-top: 100px;
+}
+
+#scroll{
+  color: white;
+  background-color: #000;
+  border-style: none;
+  border-radius: 12px;
+  padding: 5px 10px 5px 10px;
+  clear: both;
+  text-align: center;
+  text-decoration: none;
+}
+
+footer{
+clear: both;
+margin-top: 600px;
+text-align: center;
+}
