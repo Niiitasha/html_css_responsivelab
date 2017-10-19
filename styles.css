@@ -32,8 +32,25 @@ body{
   background-color: #f9fafc;
 }
 
-.aboutchirpus{
+#hireus{
+  color: white;
+  background-color: black;
+  border-radius: 12px;
+  padding: 5px 15px 5px 15px
+}
 
+p{
+color: #69696a;
+float: left;
+width: 500px;
+border-left: 3px solid #69696a;
+padding-left: 10px;
+}
+
+h1{
+  font-weight: normal 800px;
+  margin-left: 25px;
+  padding-top: 100px;
 }
 
 #pinkcircle{
@@ -45,7 +62,6 @@ body{
   margin-left: 900px;
   margin-top: -50px;
   float: left;
-
 }
 
 #purplecircle{
@@ -69,28 +85,6 @@ body{
   margin-top: -50px;
   z-index: 5;
   float: left;
-}
-
-
-#hireus{
-  color: white;
-  background-color: black;
-  border-radius: 12px;
-  padding: 5px 15px 5px 15px
-}
-
-p{
-color: #69696a;
-float: left;
-width: 500px;
-border-left: 3px solid #69696a;
-padding-left: 10px;
-}
-
-h1{
-  font-weight: normal 800px;
-  margin-left: 25px;
-  padding-top: 100px;
 }
 
 #scroll{

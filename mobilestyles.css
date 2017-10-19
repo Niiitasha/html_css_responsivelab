@@ -1,0 +1,142 @@
+
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  src: url('https://fonts.googleapis.com/css?family=Open+Sans');
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f9fafc;
+}
+
+
+ul {
+  list-style-type: none;
+    padding-left: 10px;
+}
+
+li a{
+  display: inline;
+  color: #69696a;
+  text-decoration: none;
+}
+
+#hireus{
+  color: white;
+}
+
+.hireus{
+  background-color: #000;
+  color: white;
+  padding: 0px 0px 0px 8px;
+  border-style: none;
+  border-radius: 12px;
+  text-align: center;
+  text-decoration: none;
+}
+
+h1{
+  font-weight: normal 800px;
+  margin-left: 25px;
+}
+
+p{
+color: #69696a;
+float: left;
+border-left: 3px solid #69696a;
+padding-left: 10px;
+width: 460px;
+}
+
+#scroll{
+  color: white;
+  background-color: #000;
+  border-style: none;
+  border-radius: 12px;
+  clear: both;
+  text-align: center;
+  text-decoration: none;
+}
+
+footer{
+display: flex;
+flex-direction: column;
+justify-content: center;
+justify-content:space-around;
+width: 100%;
+}
+
+@media only screen and (min-width: 992px){
+
+body{
+ display: flex;
+ flex-direction: column;
+}
+
+nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0px;
+    margin: 0px;
+  }
+
+li a{
+    margin-right: 10px;
+  }
+
+.aboutchirpus{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+        }
+
+        #pinkcircle{
+          border-radius: 50%;
+        	width: 350px;
+        	height: 350px;
+          background-color: rgba(247, 136, 167, 0.6);
+          position: relative;
+          margin-left: 650px;
+          margin-top: -200px;
+          float: left;
+        }
+
+        #purplecircle{
+          border-radius: 50%;
+        	width: 150px;
+        	height: 150px;
+          background-color: rgba(207, 130, 213, 0.6);
+          position: absolute;
+          margin-left: 950px;
+          margin-top: 150px;
+          float: left;
+        }
+
+        #peachcircle{
+          border-radius: 50%;
+        	width: 250px;
+        	height: 250px;
+          background-color: rgba(247, 193, 162, 0.7);
+          position: relative;
+          margin-left: 875px;
+          margin-top: -175px;
+          z-index: 5;
+          float: left;
+          margin-bottom: 100px;
+        }
+
+#scroll{
+  margin-left: 45%;
+  margin-right: 45%;
+  padding: 2px 2px 2px 2px;
+ }
+}
